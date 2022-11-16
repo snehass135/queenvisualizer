@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Linked List</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="icon" type="image/x-icon" href="./724304-200.png">
+    <script src="https://kit.fontawesome.com/22b6d17b31.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="text-container">
+                Delete <span class="word-style">MIDDLE</span> of Linked List
+            </div>
+            <button id="theme-button">
+                <i class="fa-solid fa-circle-half-stroke"></i>
+            </button>
+        </div>
+    </header>
+
+    <div class="animation-container">
+    </div>
+
+    <div class="form-container">
+        <form method="POST" id="add-form">
+            <input type="text" name="add-data" id="add-data" placeholder="Data" autocomplete="off">
+            <div class="error-container">
+                <i class="fa-solid fa-circle-exclamation"></i>
+                <span class="error-message"></span>
+            </div>
+            <input type="submit" value="Add">
+        </form>
+
+        <form method="POST" id="remove-form">
+            <div class="error-container">
+                <i class="fa-solid fa-circle-exclamation"></i>
+                <span class="error-message"></span>
+            </div>
+            <input type="submit" value="Delete Middle">
+        </form>
+    </div>
+    <script src="JavaScript/theme.js"></script>
+    <script src="JavaScript/formValidation.js"></script>
+    <script src="JavaScript/app.js"></script>
+</body>
